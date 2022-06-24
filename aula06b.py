@@ -1,4 +1,4 @@
-##Tipos primitivos, saída de dados e dissecação de variável.
+##Tipos primitivos, saída de dados e dissecação de variável.##
 n = input('Digite algo: ')
 print('O valor digitado foi {} e é do tipo primitivo {}.'.format(n, type(n)))
 print('É alfanum? {}'.format(n.isalnum()))
