@@ -7,7 +7,5 @@ cada litro de tinta pinta uma área de 2m²
 """""
 l = float(input('Qual é a largura da parede? '))
 a = float(input('Qual é a altura da parede?'))
-ar = l * a
-tl = ar / 2
-print('A Área da parede é {}, e para pintá-la serão necessários {:.2f} litros de tinta'.format(ar, tl))
+print('A Área da parede é {}m², e para pintá-la serão necessários {:.2f} litros de tinta'.format((l*a), ((l*a)/2)))
 ############################################################################################
