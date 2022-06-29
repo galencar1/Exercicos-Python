@@ -10,3 +10,7 @@ Ex: Ana Maria de Souza
 primeiro = Ana
 Ultimo = Souza
 '''
+nome = str(input('Digite seu nome completo: ')).strip()
+n = nome.split()
+print('Seu nome completo é {},\n o primeiro nome é {},\n e o último nome é {}.'
+      .format(nome, n[0], n[len(n)-1]))
