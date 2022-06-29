@@ -10,3 +10,8 @@ pessoa e mostre:
 -> Quantas letras ao todo(sem considerar espaços)
 -> Quantas letras tem o primeiro nome
 '''
+nome = str(input('Digite seu nome: ')).strip()
+print(nome.upper())
+print(nome.lower())
+print(len(nome.replace(' ', '')))
+print(nome.find(' '))
