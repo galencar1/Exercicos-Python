@@ -8,7 +8,7 @@ cobrando R$ 0,50 por KM
 para viagens até 200KM
 e R$ 0,45 para viagens mais longas
 '''
-distancia = int(input('Qual é a distância da viagem? '))
+distancia = float(input('Qual é a distância da viagem? '))
 if distancia <= 200:
     passagem = distancia * 0.50
 else:
